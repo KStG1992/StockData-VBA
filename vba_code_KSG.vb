@@ -72,9 +72,16 @@ Sub wall_street()
                 
                 End If
                     
-                'Calculating Percent Change'
-                percent_change = Round((yearly_change / start_ticker) * 100, 2)
-                ws.Range("L" & table).Value = Str(percent_change) + "%"
+                'Calculating Percent Change. First Need a Conditional to Check start_ticker for Zero.'
+                If start_ticker = 0 Then
+                    percent_change = 0
+                    
+                Else
+                
+                    percent_change = Round((yearly_change / start_ticker) * 100, 2)
+                    ws.Range("L" & table).Value = Str(percent_change) + "%"
+                    
+                End If
                 
                 'Calculating the Total Volume of the Stock'
                 vol_total = vol_total + ws.Cells(i, 7).Value
@@ -82,6 +89,9 @@ Sub wall_street()
                 
                 'Adjusting the Location of the Summary Table'
                 table = table + 1
+                
+                'Resetting Length Total'
+                length_ticker = 0
                 
                 'Resetting Volume Total'
                 vol_total = 0
