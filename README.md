@@ -10,6 +10,7 @@ This folder contains 6 files, as listed below. I have written a Macro that will 
 
 *[VBA Macro](https://ku.bootcampcontent.com/KStGermain0513/vba-challenge/blob/master/vba_code_KSG.vb) - This Visual Basic file holds the script for both Test Data and Stock Data.
 
-*[PDF Files](https://ku.bootcampcontent.com/KStGermain0513/vba-challenge/blob/master/2014_stock_data_KSG.pdf)- These files are PDFs of each year with the results of the Multi Stock Data.
- [PDF Files](https://ku.bootcampcontent.com/KStGermain0513/vba-challenge/blob/master/2015_stock_data_KSG.pdf)
- [PDF Files](https://ku.bootcampcontent.com/KStGermain0513/vba-challenge/blob/master/2016_stock_data_KSG.pdf) 
+These files are PDFs of each year with the results of the Multi Stock Data.
+*[2014 PDF File](https://ku.bootcampcontent.com/KStGermain0513/vba-challenge/blob/master/2014_stock_data_KSG.pdf)
+ [2015 PDF Files](https://ku.bootcampcontent.com/KStGermain0513/vba-challenge/blob/master/2015_stock_data_KSG.pdf)
+ [2016 PDF Files](https://ku.bootcampcontent.com/KStGermain0513/vba-challenge/blob/master/2016_stock_data_KSG.pdf) 
